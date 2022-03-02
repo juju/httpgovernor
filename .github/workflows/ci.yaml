@@ -9,7 +9,7 @@ jobs:
         go: ['1.15', '1.16']
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.4.0
+    - uses: actions/checkout@v3
     - uses: actions/setup-go@v2.1.4
       with:
         go-version: ${{ matrix.go }}
